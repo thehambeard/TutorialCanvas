@@ -12,4 +12,4 @@
     * Loading AssetBundles
     * Setting transform parent/children along with priority
     * Tweening to create animations/transitions
-    * Adding new components to a transform
+    * Adding new components to a GameObject
