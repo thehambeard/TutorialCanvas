@@ -12,8 +12,10 @@ namespace TutorialCanvas.SettingsMenu
 
         public string Name => "MainMenu";
 
+#if DEBUG
         public void OnGUI(UnityModManager.ModEntry modEntry)
         {
+
             if (GL.Button("Load bundle", GL.ExpandWidth(false)))
             {
                 RefreshUI();
@@ -31,7 +33,13 @@ namespace TutorialCanvas.SettingsMenu
             BundleManger.AddBundle("tutorialcanvas");
             Mod.Core.UI.Update();
         }
+#endif
 
+#if !DEBUG
+        public void OnGUI(UnityModManager.ModEntry modEntry)
+        {
+        }
+#endif
         public void HandleModDisable()
         {
         }

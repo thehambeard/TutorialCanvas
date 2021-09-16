@@ -1,17 +1,8 @@
 ﻿using DG.Tweening;
 using Kingmaker;
-using Kingmaker.Localization;
-using Kingmaker.UI.Common;
-using Kingmaker.UI.Constructor;
-using Kingmaker.UI.Tooltip;
-using Kingmaker.View;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TutorialCanvas.Utilities;
 using static TutorialCanvas.Main;

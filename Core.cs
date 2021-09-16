@@ -1,5 +1,4 @@
-﻿using Kingmaker.PubSubSystem;
-using ModMaker;
+﻿using ModMaker;
 using System;
 using static TutorialCanvas.Main;
 using static TutorialCanvas.Utilities.SettingsWrapper;
@@ -31,14 +30,12 @@ namespace TutorialCanvas
             {
                 Mod.Settings.lastModVersion = Mod.Version.ToString();
             }
-            Utilities.BundleManger.AddBundle("tutorialcanvas");
-            //EventBus.Subscribe(this);
+            Utilities.BundleManger.AddBundle("tutorialcanvas"); //Load our AssetBundle.
         }
 
         public void HandleModDisable()
         {
             UI = null;
-            //EventBus.Unsubscribe(this);
         }
     }
 }
