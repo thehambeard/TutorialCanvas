@@ -8,7 +8,7 @@
  * Click and hold on the weapons and it will let you drag the windows.
  * In the UMM menu you can toggle the placeholder and the reused graphic
  * Demonstrates:
-    * Reusing components
+    * Reusing GameObjects
     * Loading AssetBundles
     * Setting transform parent/children along with priority
     * Tweening to create animations/transitions
